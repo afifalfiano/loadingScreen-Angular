@@ -1,0 +1,19 @@
+<div style="text-align:center" *ngIf="isFontsLoaded && isStylesLoaded;else loading">
+    <h1>Welcome to Angular!</h1>
+  </div>
+
+  <ng-template #loading>
+    <div class="loader">
+      <h1>Welcome to Angular!</h1>
+    </div>
+      <div class="wrapper">
+      <div class="float">
+        <h2>Lorem Ipsum</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed fugiat ab officiis quidem beatae consequuntur vel laboriosam similique reiciendis in, corporis dignissimos? Nulla molestiae, deleniti quis nemo facere odio placeat quisquam ipsum quia repellendus vitae aliquam delectus, fugiat maxime. Quaerat repellendus repudiandae illo aperiam eos ipsam excepturi ea mollitia asperiores!</p>
+      </div>
+      <div class="float">
+          <h2>Lorem Ipsum</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed fugiat ab officiis quidem beatae consequuntur vel laboriosam similique reiciendis in, corporis dignissimos? Nulla molestiae, deleniti quis nemo facere odio placeat quisquam ipsum quia repellendus vitae aliquam delectus, fugiat maxime. Quaerat repellendus repudiandae illo aperiam eos ipsam excepturi ea mollitia asperiores!</p>
+        </div>
+    </div>
+  </ng-template>
